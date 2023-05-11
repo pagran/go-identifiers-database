@@ -40,8 +40,7 @@ func generate(input io.Reader, dataOutput io.Writer, indexOutput io.Writer) erro
 }
 
 func writeGoFile(goFile io.Writer, dataFileName string, idxFileName string) error {
-	const srcCode = `
-package {{ .package }}
+	const srcCode = `package {{ .package }}
 
 import (
 	_ "embed"

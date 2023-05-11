@@ -415,8 +415,6 @@ callback_delete
 callback_query
 callback_shared
 callback_update
-callbacks
-callbacks_traceback
 callers
 callers_generated
 callrules_generated
@@ -478,32 +476,6 @@ cfg
 cft
 cgen
 cgen64
-cgo
-cgo1
-cgo2
-cgo3
-cgo4
-cgo_android
-cgo_bsd
-cgo_linux
-cgo_mips64x
-cgo_mmap
-cgo_netbsd
-cgo_openbsd
-cgo_pkgconfig
-cgo_ppc64x
-cgo_resnew
-cgo_resold
-cgo_rumprun
-cgo_socknew
-cgo_sockold
-cgo_solaris
-cgo_stub
-cgo_unix
-cgo_windows
-cgocall
-cgocallback
-cgocheck
 chacha_amd64
 chacha_arm64
 chacha_generic
@@ -703,7 +675,6 @@ concentratorinstancerefresh
 concurrentwriter
 cond
 conf
-conf_netcgo
 config
 config.ini
 config_experimental
@@ -1155,12 +1126,10 @@ download
 downsample
 downsampler
 dpkg
-dragonfly
 draw
 driver
 driver_linux
 driver_unsupported
-driver_unsupported_nocgo
 driver_windows
 drivers
 drwmutex
@@ -1252,9 +1221,6 @@ eosws
 equal
 erf
 err
-err1
-err2
-err3
 errand
 errand_runner
 errands
@@ -1511,7 +1477,6 @@ form
 format
 formatter
 formdata
-fortran
 forum
 forward
 forward_action
@@ -1522,7 +1487,6 @@ fqin
 fragmenta
 frame
 framing
-freebsd
 freeform_args_access
 freeform_args_parsing
 frexp
@@ -1568,8 +1532,6 @@ gaudi
 gc
 gc_block_vol
 gcb
-gcc
-gccgoinstallation
 gcexportdata
 gcimporter
 gcm
@@ -1651,7 +1613,6 @@ global
 global_funcs
 glog
 glog_file
-gmp
 gnu
 go
 go1
@@ -1674,7 +1635,6 @@ gobs1
 gobs2
 gochimp
 gocialite
-godefs
 goffee
 gofmt
 gofuzz_disabled
@@ -2059,21 +2019,11 @@ irrfinder
 is_alias
 isalias18
 isalias19
-iscgo
 isinf
 isnan
 isprint
 isshuttingdown
 issue
-issue11097a
-issue11097b
-issue13129
-issue13423
-issue13635
-issue13830
-issue14669
-issue7757
-issue8442
 issues
 issues_assignees
 issues_comments
@@ -2621,7 +2571,6 @@ net_debug
 net_nacl
 net_release
 net_transport
-netbsd
 netipv6zone
 netlink
 netlink_linux
@@ -2677,7 +2626,6 @@ nl_linux
 nm
 noasm
 nocache
-nocgo
 node
 node-manager
 node.pb
@@ -2742,7 +2690,6 @@ onepass
 op
 open
 openapi_generated
-openbsd
 opentracing
 operand
 operate
@@ -2834,7 +2781,6 @@ osext_sysctl
 osext_windows
 osprepare
 osxlockdown
-out
 outbound
 outpack
 output
@@ -3134,7 +3080,6 @@ prune
 ps
 psp_status
 pss
-ptr
 publicipassigned
 publish-release-sums
 publisher
@@ -3396,14 +3341,12 @@ roles
 rollback
 root
 root_bsd
-root_cgo_darwin
 root_cmd
 root_darwin
 root_darwin_arm_gen
 root_darwin_armx
 root_linux
 root_nacl
-root_nocgo_darwin
 root_plan9
 root_solaris
 root_unix
@@ -3455,7 +3398,6 @@ rule_handlers
 rule_metrics
 rulegen
 rules
-rumprun
 run
 runcommand
 rune
@@ -3501,7 +3443,6 @@ schedule
 scheduler
 scheduler.pb
 scheduler.pb_ffjson
-scheduler_gccgo
 schema
 schematic
 scope
@@ -3597,7 +3538,6 @@ sessionlookupresult
 sessionregistry
 sessions
 set
-setenv
 setlevel
 setting
 settings
@@ -3657,7 +3597,6 @@ signal_darwin_386
 signal_darwin_amd64
 signal_darwin_arm
 signal_darwin_arm64
-signal_darwin_armx
 signal_dragonfly
 signal_dragonfly_amd64
 signal_freebsd
@@ -3698,7 +3637,6 @@ signal_unix
 signal_unsupported
 signal_windows
 signature
-signature_cgo
 signature_help
 signbit
 signconfigtx
@@ -3916,7 +3854,6 @@ statuses
 stdconsole
 stdcopy
 stdin
-stdio
 step
 steward
 sticky_bsd
@@ -4129,7 +4066,6 @@ task
 task_inspect
 task_list
 tasker
-tc_linux_cgo
 tc_other
 tcmu
 tcp_proxy
@@ -4413,7 +4349,6 @@ utf8
 util
 util_bsd
 util_gc
-util_gccgo
 util_linux
 util_windows
 utilities
@@ -4610,7 +4545,6 @@ yquotes
 z
 zbootstrap
 zcallback_windows
-zcgo
 zcse
 zdefaultcc
 zero
