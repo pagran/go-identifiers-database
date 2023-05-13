@@ -23,7 +23,7 @@ var (
 func GetIdentifiers() []string {
 	onceGetIdentifiers.Do(func() {
 		var buf bytes.Buffer
-		buf.Grow(21021613)
+		buf.Grow(17481209)
 
 		reader, err := gzip.NewReader(bytes.NewReader(dataGetIdentifiers))
 		if err != nil {
