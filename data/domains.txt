@@ -1,8 +1,0 @@
-k8s.io
-github.com
-v2ray.com
-go.etcd.io
-code.gitea.io
-fyne.io
-gonum.org
-go.etcd.io
